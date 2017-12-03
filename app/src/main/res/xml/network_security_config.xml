@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true"/>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">http://10.0.0.10:9090/FinancesApp/rest/</domain>
+        <domain includeSubdomains="true">http://10.0.0.10:9090/FinancesApp/rest/user/register</domain>
+    </domain-config>
+</network-security-config>
